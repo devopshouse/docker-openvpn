@@ -1,6 +1,8 @@
 #!/bin/bash
 set -e
 
+iptables 0
+
 [ -n "${DEBUG+x}" ] && set -x
 OVPN_DATA=basic-data
 IMG="devopshouse/openvpn"
