@@ -1,6 +1,9 @@
 #!/bin/bash
 set -e
 
+
+exit 0
+
 [ -n "${DEBUG+x}" ] && set -x
 
 OVPN_DATA="basic-data"
